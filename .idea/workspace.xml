@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f0ae454a-dd9d-43a4-9dda-3df173f3b42b" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/builider/MyObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/builider/MyObject2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/builider/MyObjectClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/classes/literatePrimes/PrintPrimes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/classes/notes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/comunication/KnockKnockServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/comunication/SocketClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/ObjectApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/Ability.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/Ability2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/Animated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/BlackWhite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/Crystal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/DiamondPearl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/DreamWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/Emerald.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/FireredLeafgreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/Form.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/GameIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/GenerationI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/GenerationIi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/GenerationIii.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/GenerationIv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/GenerationV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/GenerationVi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/GenerationVii.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/GenerationViii.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/Gold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/HeartgoldSoulsilver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/HeldItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/Home.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/Icons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/Move.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/Move2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/MoveLearnMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/OfficialArtwork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/OmegarubyAlphasapphire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/Platinum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/RedBlue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/Root.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/RubySapphire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/Silver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/Species.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/Sprites.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/Stat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/Stat2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/Type2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/UltraSunUltraMoon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/Version.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/VersionDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/VersionGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/VersionGroupDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/Versions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/XY.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/consumeApi/objectsJson/Yellow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/especification/PolicySpecification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/exceptionanidate/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/lambdafunction/ConsumerExplanation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/lambdafunction/Lambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/lambdafunction/StreamExplanation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/records/CarroDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/records/CarroDTO1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/records/CarroDTO2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/records/ClienteRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/serialization/JsonUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/unit_test/notes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modern/features/autoclose/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modern/features/autoclose/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modern/features/builder/Calzone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modern/features/builder/ConsumerBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modern/features/builder/NyPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modern/features/builder/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modern/features/classandmethod/ConsumerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modern/features/classandmethod/Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modern/features/classandmethod/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modern/features/classandmethod/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modern/features/matching/PatternMatching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modern/features/matching/Planet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modern/features/threads/ThreadUsing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/propagate/error/example/PropagateError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/propagate/error/example/PropageteExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/modern/features/matching/PlanetTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="clean-code-book" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="clean-code-book" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Swagger" />
+        <option value="package-info" />
+        <option value="Record" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2He2XPi1H1IqV3fkKG87BhFXLco" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
+    "last_opened_file_path": "C:/Users/earrecis/Documents/DESAROLLO/Cursos/CursoCleanCode/Book/clean-code-book",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.271875",
+    "settings.editor.selected.configurable": "advanced.settings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="modern.features.classandmethod" />
+      <recent name="clean.code.book.comunication" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="modern.features" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle clean" />
+      <command value="gradle jar 8080" />
+      <command value="gradle jar" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ConsumerClass">
+    <configuration default="true" type="SwaggerCodegen">
+      <option name="activeConfigurationType" value="FILE" />
+      <option name="configurationPath" value="" />
+      <option name="customJreEnabled" value="false" />
+      <option name="customTemplatesPath" value="" />
+      <option name="enableDebugLogging" value="false" />
+      <option name="generateToPath" value="C:\Users\earrecis\Documents\DESAROLLO\CursoCleanCode\Book\clean-code-book\gen" />
+      <option name="generationParameters">
+        <list />
+      </option>
+      <option name="generatorPath" value="https://repo1.maven.org/maven2/org/openapitools/openapi-generator-cli/5.0.0/openapi-generator-cli-5.0.0.jar" />
+      <option name="jdkPath" value="Default" />
+      <option name="language" value="java" />
+      <option name="specificationPath" value="C:\Users\earrecis\Documents\DESAROLLO\CursoCleanCode\Book\clean-code-book\src\main\java\clean\code\book\lol.yaml" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modern.features.autoclose.Consumer" />
+      <module name="clean-code-book.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modern.features.autoclose.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modern.features.classandmethod.ConsumerClass" />
+      <module name="clean-code-book.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modern.features.classandmethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadUsing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modern.features.threads.ThreadUsing" />
+      <module name="clean-code-book.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modern.features.threads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlanetTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;modern.features.PlanetTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PlanetTest.getDamageToPlanetWithoutPatternWhenCUP" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;modern.features.PlanetTest.getDamageToPlanetWithoutPatternWhenCUP&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="lol.yaml" type="SwaggerCodegen">
+      <option name="activeConfigurationType" value="FILE" />
+      <option name="configurationPath" value="" />
+      <option name="customJreEnabled" value="false" />
+      <option name="customTemplatesPath" value="" />
+      <option name="enableDebugLogging" value="false" />
+      <option name="generateToPath" value="C:\Users\earrecis\Documents\DESAROLLO\CursoCleanCode\Book\clean-code-book\gen" />
+      <option name="generationParameters">
+        <list />
+      </option>
+      <option name="generatorPath" value="https://repo1.maven.org/maven2/org/openapitools/openapi-generator-cli/5.0.0/openapi-generator-cli-5.0.0.jar" />
+      <option name="jdkPath" value="Default" />
+      <option name="language" value="java" />
+      <option name="specificationPath" value="C:\Users\earrecis\Documents\DESAROLLO\CursoCleanCode\Book\clean-code-book\src\main\java\clean\code\book\lol.yaml" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ConsumerClass" />
+        <item itemvalue="Application.ThreadUsing" />
+        <item itemvalue="Application.Consumer" />
+        <item itemvalue="Gradle.PlanetTest.getDamageToPlanetWithoutPatternWhenCUP" />
+        <item itemvalue="Gradle.PlanetTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f0ae454a-dd9d-43a4-9dda-3df173f3b42b" name="Changes" comment="" />
+      <created>1668631270338</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668631270338</updated>
+      <workItem from="1668631272107" duration="922000" />
+      <workItem from="1668695377352" duration="2102000" />
+      <workItem from="1668701216760" duration="7536000" />
+      <workItem from="1668709270499" duration="3052000" />
+      <workItem from="1668718454493" duration="4367000" />
+      <workItem from="1669311823616" duration="1492000" />
+      <workItem from="1669395006368" duration="1169000" />
+      <workItem from="1669411581561" duration="1611000" />
+      <workItem from="1669607782046" duration="40000" />
+      <workItem from="1669612341473" duration="10345000" />
+      <workItem from="1669734826432" duration="1726000" />
+      <workItem from="1669754540754" duration="1994000" />
+      <workItem from="1669757231329" duration="5080000" />
+      <workItem from="1669817581663" duration="2277000" />
+      <workItem from="1669841185591" duration="1118000" />
+      <workItem from="1669844347950" duration="1582000" />
+      <workItem from="1670519463790" duration="2008000" />
+      <workItem from="1671749995983" duration="166000" />
+      <workItem from="1671808480939" duration="7918000" />
+      <workItem from="1672152213708" duration="15971000" />
+      <workItem from="1672236460787" duration="26485000" />
+      <workItem from="1672323998553" duration="6671000" />
+      <workItem from="1672414944802" duration="2790000" />
+      <workItem from="1672423112073" duration="383000" />
+      <workItem from="1672757577065" duration="7789000" />
+      <workItem from="1672841339777" duration="16866000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/build/classes/java/main/clean/code/book/records/CarroDTO2.class</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/clean/code/book/lambdafunction/StreamExplanation.java</url>
+          <line>23</line>
+          <properties>
+            <option name="lambda-ordinal" value="0" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="clean.code.book.lambdafunction.StreamExplanation$User" memberName="age" />
+        <PinnedItemInfo parentTag="java.lang.Integer" memberName="value" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/clean_code_book$PlanetTest.ic" NAME="PlanetTest Coverage Results" MODIFIED="1672765923623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
