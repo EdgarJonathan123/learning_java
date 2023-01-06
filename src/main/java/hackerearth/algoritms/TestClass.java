@@ -1,32 +1,40 @@
 package hackerearth.algoritms;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.Scanner;
 
 class TestClass {
-    public static void main(String args[] ) throws Exception {
-        //BufferedReader
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        Integer numberOfCases =Integer.valueOf(br.readLine());// Reading input from STDIN
-        List<Integer[]> lineCases = new LinkedList<>();
-        for (int i = 0; i < numberOfCases;i++){
-            String[] caseLine =  br.readLine().split(" ");
-            Integer lengthBox = Integer.valueOf(caseLine[0]);
-            Integer lengthCandies = Integer.valueOf(caseLine[1]);;
-            lineCases.add(new Integer[]{lengthBox,lengthCandies});
+    public static void main(String args[]) throws Exception {
+        readContent2();
+    }
+    public static void readContent2() {
+        Scanner in = new Scanner(System.in);
+
+        Integer nubmerOfCases = 0;
+        Integer contador = 0;
+        if (in.hasNext()) {
+            nubmerOfCases = in.nextInt();
         }
 
-        lineCases.forEach(linecase ->{
-            Integer result = getIndexBox(linecase[0],linecase[1]);
-            System.out.println(result);    // Writing output to STDOUT
-        });
+        while (in.hasNext()) {
+            if (nubmerOfCases < contador) {
+                break;
+            }
+            String line = in.nextLine();
+            if (!line.equals("")) {
+                String[] caseLine = line.split(" ");
+                int lengthBoxes = Integer.parseInt(caseLine[0]);
+                int lengthCandies = Integer.parseInt(caseLine[1]);
+                Integer result = getIndexBox(lengthBoxes, lengthCandies);
+                System.out.println(result);
+            }
+
+            contador++;
+        }
+    }
+    public static int getIndexBox(int lengthBox, int lengthCandy) {
+        return getIndexBox(1, 1, lengthCandy, lengthBox, "asc");
     }
 
-    public static int getIndexBox(int lengthBox,int lengthCandy){
-        return getIndexBox(1,1,lengthCandy,lengthBox,"asc");
-    }
     private static int getIndexBox(int actualCandy, int actualBox, int lengthCandy, int lengthBox, String dir) {
         if (actualCandy == lengthCandy) {
             return actualBox;
@@ -42,8 +50,7 @@ class TestClass {
 
         if (dir.equals("asc")) {
             return getIndexBox(actualCandy + 1, actualBox + 1, lengthCandy, lengthBox, "asc");
-        }
-        else {
+        } else {
             return getIndexBox(actualCandy + 1, actualBox - 1, lengthCandy, lengthBox, "desc");
         }
     }

@@ -7,23 +7,33 @@ import java.io.InputStreamReader;
 public class CandyInTheBox {
 
 
-    public static void main(String args[] ) throws Exception {
+    public static void main(String args[]) throws Exception {
         //BufferedReader
         CandyInTheBox candyInTheBox = new CandyInTheBox();
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        Integer numberOfCases =Integer.valueOf(br.readLine());// Reading input from STDIN
-        for (int i = 0; i < numberOfCases;i++){
-            Integer lengthBox = getItem(br,0);
-            Integer lengthCandies = getItem(br,1);
-            Integer result = candyInTheBox.getIndexBox(lengthBox,lengthCandies);
-            System.out.println(result);    // Writing output to STDOUT
+        String line = "";
+        if ((line = br.readLine()) != null && line != "") {
+            while(!line.equals("")){
+                Integer numberOfCases = Integer.valueOf(line);// Reading input from STDIN
+                for (int i = 0; i < numberOfCases; i++) {
+                    if ((line = br.readLine()) != null) {
+                        String[] caseLine = line.split(" ");
+                        Integer lengthBox = Integer.valueOf(caseLine[0]);
+                        Integer lengthCandies = Integer.valueOf(caseLine[1]);
+                        Integer result = candyInTheBox.getIndexBox(lengthBox, lengthCandies);
+                        System.out.println(result);    // Writing output to STDOUT
+                    }
+                }
+
+            }
         }
     }
 
-    public int getIndexBox(int lengthBox,int lengthCandy){
-        return getIndexBox(1,1,lengthCandy,lengthBox,"asc");
+    public int getIndexBox(int lengthBox, int lengthCandy) {
+        return getIndexBox(1, 1, lengthCandy, lengthBox, "asc");
     }
-    private  int getIndexBox(int actualCandy, int actualBox, int lengthCandy, int lengthBox, String dir) {
+
+    private int getIndexBox(int actualCandy, int actualBox, int lengthCandy, int lengthBox, String dir) {
         if (actualCandy == lengthCandy) {
             return actualBox;
         }
@@ -38,14 +48,13 @@ public class CandyInTheBox {
 
         if (dir.equals("asc")) {
             return getIndexBox(actualCandy + 1, actualBox + 1, lengthCandy, lengthBox, "asc");
-        }
-        else {
+        } else {
             return getIndexBox(actualCandy + 1, actualBox - 1, lengthCandy, lengthBox, "desc");
         }
     }
 
-    public static Integer getItem(BufferedReader br,Integer numberItem)throws IOException {
-        String[] caseLine =  br.readLine().split(" ");
+    public static Integer getItem(BufferedReader br, Integer numberItem) throws IOException {
+        String[] caseLine = br.readLine().split(" ");
         return Integer.valueOf(caseLine[numberItem]);
     }
 
