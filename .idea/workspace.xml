@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0ae454a-dd9d-43a4-9dda-3df173f3b42b" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hackerearth/algoritms/candyinthebox/Reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hackerearth/algoritms/candyinthebox/ReaderConsole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hackerearth/algoritms/candyinthebox/ReaderString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hackerearth/algoritms/candyinthebox/TestClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hackerearth/algoritms/CandyInTheBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackerearth/algoritms/CandyInTheBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hackerearth/algoritms/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackerearth/algoritms/TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackerearth/algoritms/CandyInTheBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hackerearth/algoritms/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackerearth/algoritms/candyinthebox/CandyInTheBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hackerearth/algoritms/CandyInTheBoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hackerearth/algoritms/CandyInTheBoxTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +116,7 @@
       <command value="gradle jar" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestClass">
+  <component name="RunManager" selected="Gradle.CandyInTheBoxTest">
     <configuration default="true" type="SwaggerCodegen">
       <option name="activeConfigurationType" value="FILE" />
       <option name="configurationPath" value="" />
@@ -130,24 +134,11 @@
       <method v="2" />
     </configuration>
     <configuration name="CandyInTheBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hackerearth.algoritms.CandyInTheBox" />
+      <option name="MAIN_CLASS_NAME" value="hackerearth.algoritms.candyinthebox.CandyInTheBox" />
       <module name="clean-code-book.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hackerearth.algoritms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConsumerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="modern.features.classandmethod.ConsumerClass" />
-      <module name="clean-code-book.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="modern.features.classandmethod.*" />
+          <option name="PATTERN" value="hackerearth.algoritms.candyinthebox.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,11 +147,11 @@
       </method>
     </configuration>
     <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hackerearth.algoritms.TestClass" />
+      <option name="MAIN_CLASS_NAME" value="hackerearth.algoritms.candyinthebox.TestClass" />
       <module name="clean-code-book.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hackerearth.algoritms.*" />
+          <option name="PATTERN" value="hackerearth.algoritms.candyinthebox.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,18 +159,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadUsing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="modern.features.threads.ThreadUsing" />
+    <configuration name="execute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hackerearth.algoritms.execute" />
       <module name="clean-code-book.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="modern.features.threads.*" />
+          <option name="PATTERN" value="hackerearth.algoritms.candyinthebox.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="CandyInTheBoxTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hackerearth.algoritms.CandyInTheBoxTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="CandyInTheBoxTest.getIndexBoxHappyCase" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -222,11 +236,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CandyInTheBoxTest" />
+        <item itemvalue="Application.execute" />
         <item itemvalue="Application.TestClass" />
         <item itemvalue="Gradle.CandyInTheBoxTest.getIndexBoxHappyCase" />
         <item itemvalue="Application.CandyInTheBox" />
-        <item itemvalue="Application.ConsumerClass" />
-        <item itemvalue="Application.ThreadUsing" />
       </list>
     </recent_temporary>
   </component>
