@@ -21,6 +21,8 @@ dependencies {
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.14.1'
     implementation 'org.apache.httpcomponents:httpclient:4.5.14'
     testImplementation 'org.mockito:mockito-core:4.11.0'
+    implementation 'org.la4j:la4j:0.6.0'
+    compileOnly 'jakarta.servlet:jakarta.servlet-api:6.0.0'
 
 }
 

@@ -28,4 +28,11 @@ public class Planet {
            case BOTTLE -> 300;
         };
     }
+
+
+    public static void main(String[] args) {
+
+
+
+    }
 }

@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 class ReaderConsole implements Reader {
     public void read() {
+        CandyDispenserMachine candyDispenserMachine = new CandyDispenserMachineImplMath();
         Scanner in = new Scanner(System.in);
 
         Integer numberOfCases = 0;
@@ -21,8 +22,7 @@ class ReaderConsole implements Reader {
                 String[] caseLine = line.split(" ");
                 int lengthBoxes = Integer.parseInt(caseLine[0]);
                 int lengthCandies = Integer.parseInt(caseLine[1]);
-                CandyInTheBox candyInTheBox = new CandyInTheBox(lengthBoxes, lengthCandies);
-                Integer result = candyInTheBox.getIndexBox();
+                Integer result = candyDispenserMachine.findIndexBoxWhereIsLastCandy(lengthBoxes, lengthCandies);
                 System.out.println(result);
             }
 
