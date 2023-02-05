@@ -13,9 +13,7 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/removeduplicates/RenderedOP.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/removeduplicates/deleteme.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/hackerearth/algoritms/candy/TestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hackerearth/algoritms/candyinthebox/CandyDispenserImplRecursive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hackerearth/algoritms/candyinthebox/CandyDispenserMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hackerearth/algoritms/candyinthebox/CandyDispenserMachineImplMath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hackerearth/algoritms/equaloperation/TestClass.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/justfun/Foo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/justfun/JustFun.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/refactoring/book/rentalmovies/Customer.java" afterDir="false" />
@@ -26,8 +24,6 @@
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/clean/code/book/builider/MyObjectClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clean/code/book/builider/MyObjectClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hackerearth/algoritms/candyinthebox/CandyInTheBox.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hackerearth/algoritms/candyinthebox/ReaderConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackerearth/algoritms/candyinthebox/ReaderConsole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hackerearth/algoritms/candyinthebox/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hackerearth/algoritms/candyinthebox/TestClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/modern/features/matching/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modern/features/matching/Planet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/hackerearth/algoritms/CandyInTheBoxTest.java" beforeDir="false" />
     </list>
@@ -135,7 +131,20 @@
       <command value="gradle jar" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Testclass">
+  <component name="RunManager" selected="Application.TestClass">
+    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hackerearth.algoritms.candy.TestClass" />
+      <module name="clean-code-book.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hackerearth.algoritms.candy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Testclass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="justfun.Testclass" />
       <module name="clean-code-book.main" />
@@ -176,29 +185,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;hackerearth.algoritms.candyinthebox.CandyDispenserMachineTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="CandyDispenserMachineTest.getIndexBoxWith27CandiesAnd10Boxes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;hackerearth.algoritms.candyinthebox.CandyDispenserMachineTest.getIndexBoxWith27CandiesAnd10Boxes&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -265,11 +251,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestClass" />
         <item itemvalue="Application.Testclass" />
         <item itemvalue="Application.deleteme" />
         <item itemvalue="Gradle.CandyDispenserMachineTest" />
         <item itemvalue="Gradle.CandyDispenserMachineTest.getIndexBoxWith5CandiesAnd3Boxes" />
-        <item itemvalue="Gradle.CandyDispenserMachineTest.getIndexBoxWith27CandiesAnd10Boxes" />
       </list>
     </recent_temporary>
   </component>
@@ -318,7 +304,7 @@
       <workItem from="1674223545200" duration="1298000" />
       <workItem from="1674599497325" duration="95000" />
       <workItem from="1674777324764" duration="479000" />
-      <workItem from="1675551350736" duration="204000" />
+      <workItem from="1675551350736" duration="6295000" />
     </task>
     <servers />
   </component>
